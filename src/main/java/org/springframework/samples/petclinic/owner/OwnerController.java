@@ -50,6 +50,7 @@ class OwnerController {
 
 	public OwnerController(OwnerRepository clinicService) {
 		this.owners = clinicService;
+		
 	}
 
 	@InitBinder
